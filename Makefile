@@ -12,7 +12,7 @@ default: test build
 
 .PHONY: run
 run:
-	go run $(CURDIR)/main.go $(ARGS)
+	go run example/main.go $(ARGS)
 
 .PHONY: clean
 clean:
